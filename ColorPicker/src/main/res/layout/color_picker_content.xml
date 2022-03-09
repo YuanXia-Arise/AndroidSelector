@@ -1,0 +1,19 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <com.github.yuanxia.colorpicker.BrightnessGradientView
+        android:id="@+id/color_picker_bright"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.github.yuanxia.colorpicker.ColorGradientView
+        android:id="@+id/color_picker_panel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</LinearLayout>

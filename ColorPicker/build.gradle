@@ -1,0 +1,9 @@
+
+
+apply from: "${rootDir}/gradle/library.gradle"
+apply from: "${rootDir}/gradle/publish.gradle"
+
+dependencies {
+    implementation androidxLibrary.annotation
+    api project(':Common')
+}
